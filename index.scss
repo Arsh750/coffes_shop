@@ -1,0 +1,275 @@
+@import "_navbar.scss";
+@import "_header.scss";
+@import "_footer.scss";
+
+body{
+    margin:0;
+    padding:0;
+    background-color:rgba(211, 211, 211, 0.56);
+
+}
+
+
+
+.second{
+    background-image: url(background/sweet\ bg1.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 50px;
+    padding: 50px;
+    border-radius:10px;
+    border-style:ridge;
+    box-shadow: 5px 5px 8px ;
+    flex-wrap: wrap;
+    
+    
+}
+
+.second .card{
+    color: #fff;
+    
+}
+
+
+.card2 button{
+    padding:6px;
+    border:1px solid;
+    border-radius: 10px;
+    box-shadow:2px 2px 6px;
+}
+.card2 button:hover{
+    color:#fff;
+    cursor: pointer;
+    background-color:#1e3932;
+}
+.itemlist{
+    // margin: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.itemlist h2{
+    text-align:center;
+    font-family:Aerial;
+    color: #1e3932;
+    
+}
+
+.itemlist ul{
+    display:flex;
+    justify-content: space-evenly;
+    text-align:center;
+    list-style:none;
+    font-family:serif;
+    flex-wrap: wrap;
+    
+}
+.itemlist li:hover{
+    color:#1e3932;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.itemlist img{
+    border-radius: 100%;
+    
+
+}
+
+.recommendation{
+    margin: 50px;
+    padding: 50px;
+    // background-color: cadetblue;
+    background-image:url(background/recommendation\ bg2.jpg);
+    background-position:center;
+    align-items:center;
+    margin: 50px;
+    padding: 50px;
+    border-radius:10px;
+    border-style:ridge;
+    box-shadow: 5px 5px 8px ;
+    flex-wrap: wrap;
+}
+
+.recommendation h2{
+    font-family:Aerial;
+    color: #fff;
+}
+.recommendItems{
+    border-radius: 40px;
+    display:flex; 
+    justify-content: space-evenly;
+    color: #fff;
+    border-top: 3px groove black;
+    border-bottom:3px groove black;
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    flex-wrap: wrap;
+
+    
+}
+.recommendItems h3{
+    font-size: medium;
+    font-family:serif;
+    cursor:pointer;
+}
+.recommendItems h3:hover{
+    color:black;
+}
+
+.recommendItems span{
+    font-size: xx-small;
+    vertical-align:top;
+}
+
+.recommendItems .r1{
+    box-shadow: -15px 15px 8px black;
+    border: 2px groove #fff;
+    border-radius: 6%;
+    margin:10px;
+    text-align:center;
+    // mix-blend-mode:hard-light;
+    
+}
+.recommendItems .r1:hover{
+    box-shadow: 15px 15px 8px black;
+    border-radius:8%;
+    border:none;
+}
+.recommendItems .r2{
+    box-shadow: -15px 15px 8px black;
+    border: 2px groove #fff;
+    border-radius: 6%;
+    margin:10px;
+    text-align:center;
+    // mix-blend-mode:hard-light;
+    
+    
+}
+.recommendItems .r2:hover{
+    box-shadow: 15px 15px 8px black;
+    border-radius:8%;
+    border:none;
+}
+.recommendItems .r3{
+    box-shadow: -15px 15px 8px black;
+    border: 2px groove #fff;
+    border-radius: 6%;
+    margin:10px;
+    text-align:center;
+    // mix-blend-mode:hard-light;
+    
+    
+}
+.recommendItems .r3:hover{
+    box-shadow: 15px 15px 8px black;
+    border-radius:8%;
+    border:none;
+}
+.recommendItems .r4{
+    box-shadow: -15px 15px 8px black;
+    border: 2px groove #fff;
+    border-radius: 6%;
+    margin:10px;
+    text-align:center;
+    // mix-blend-mode:hard-light;
+    
+}
+.recommendItems .r4:hover{
+    box-shadow: 15px 15px 8px black;
+    border-radius:8%;
+    border:none;
+}
+.recommendItems .r5{
+    box-shadow: -15px 15px 8px black;
+    border: 2px groove #fff;
+    border-radius: 6%;
+    margin:10px;
+    text-align:center;
+    // mix-blend-mode:hard-light;
+    
+    
+}
+.recommendItems .r5:hover{
+    box-shadow: 15px 15px 8px black;
+    border-radius:8%;
+    border:none;
+}
+.recommendItems button{
+    box-shadow: 3px 3px 10px;
+    border-radius:10px;
+    border:none;
+    background-color:cadetblue;
+
+    
+}
+.recommendItems button:hover{
+    cursor: pointer;
+    border:2px ridge black;
+ 
+    
+}
+.exloration{
+    background-color:rgba(211, 211, 211, 0.56);
+    height:500px;
+    flex-wrap: wrap;
+}
+.exloration h2{
+    font-family:sans-serif;
+    color: #1e3932;
+}
+.exloration p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    color: #1e3932;
+}
+.Discover{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    // padding:100px;
+   
+}
+.culture{
+    background-image:url(background/coffee\ culture\ 2.jpg);
+    margin:10px;
+    padding:50px;
+    color: #fff;
+    align-items:center;
+    border-radius:10px;
+    border-style:ridge;
+    box-shadow:5px 5px 8px;
+    flex-wrap:wrap;
+    
+}
+.culture .bt{
+    color: #1e3932;
+    font-family:monospace;
+    border:none; 
+    border-radius:8px;
+}
+.culture .bt1{
+    padding:10px;
+    border-radius:50px;
+    margin-top: 50px;
+    background-color: cadetblue; 
+    border: none; 
+    cursor:pointer;
+}
+.culture h1{
+    margin-top: 80px;
+}
+.f6 img:hover{
+    cursor: pointer;
+    border: 1px ridge white;
+    border-radius:10px;
+    box-shadow:4px 4px 8px black; 
+}
+
+

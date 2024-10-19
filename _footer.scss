@@ -1,0 +1,63 @@
+.final{
+    margin-top: 50px;
+    background-color:#1e3932;
+    color: #fff;
+    font-family:sans-serif;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:2px solid rgb(255, 255, 255);
+    border-bottom-style:groove;
+    flex-wrap: wrap;
+    
+}
+.final ul{
+    list-style:none;
+    line-height:25px;
+    flex-wrap: wrap;
+    
+}
+.final li{
+    font-size:11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.final li:hover{
+    color: black;
+    cursor:pointer;
+}
+.final i{
+    color:lightgrey;
+    letter-spacing:10px;
+}
+.final i:hover{
+    cursor: pointer;
+    color: black;
+}
+.final .f6{
+    padding-right:10px;
+    padding-top:10px;
+}
+
+.privacypolicy{
+    background-color: #1e3932;
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.privacypolicy .policy ul{
+    display:flex;
+    gap: 30px;
+    list-style:none;
+    font-size:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+
+}
+.privacypolicy .policy li:hover{
+    color: black;
+}
+
+.privacypolicy .rights{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

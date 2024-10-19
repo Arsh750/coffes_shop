@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar label {
+  display: none;
+}
+
+#check:checked ~ .navbar ul {
+  display: block;
+}
+
+#check {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar label {
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.navbar li:hover {
+  color: #1e3932;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.searchform {
+  box-sizing: border-box;
+}
+
+.searchform input {
+  width: 220px;
+}
+
+.searchform img {
+  vertical-align: middle;
+}
+
+.productPage h2 {
+  font-family: sans-serif;
+  color: #fff;
+  padding: 50px;
+  background-color: #1e3932;
+}
+
+.procontainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.procontainer h6 {
+  font-size: 11px;
+}
+
+.procontainer img {
+  border-radius: 100%;
+}
+
+.procontainer p {
+  font-size: 14px;
+}
+
+.procontainer label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.procontainer figcaption {
+  font-size: 10px;
+}
+
+.procontainer button {
+  cursor: pointer;
+  background-color: cadetblue;
+  border-radius: 50px;
+}
+
+.procontainer .card1 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card2 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card3 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card4 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card5 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card6 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card7 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card8 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card9 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.procontainer .card10 {
+  background-color: rgba(142, 169, 232, 0.447);
+  box-shadow: -10px 10px 8px black;
+  border-radius: 10px;
+  text-align: center;
+}/*# sourceMappingURL=Product.css.map */

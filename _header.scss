@@ -1,0 +1,19 @@
+.first{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1e3932;
+    color: #fff;
+    flex-wrap: wrap;
+}
+.first button{
+    border-radius:50px;
+    padding: 10px;
+    border:none; 
+}
+
+.first button:hover{
+    background-color: #1e3932;
+    border:none;
+    cursor: pointer;
+}

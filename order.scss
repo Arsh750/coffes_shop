@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: aliceblue;
+}
+.navbar{
+    position: sticky;
+    top:0;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.navbar label{
+    display:none
+
+}
+
+#check:checked~.navbar ul{
+    display:block
+}
+#check{
+    display:none;
+}
+
+@media screen and (max-width:650px){
+    .navbar label{
+        display:block;
+    }
+    .navbar{
+        ul{
+            display:none;
+        }
+        
+    }
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style:none;
+    gap: 60px;
+    flex-wrap: wrap;
+
+}
+.navbar li:hover{
+    color:#1e3932;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.searchform{
+    box-sizing:border-box;
+    
+}
+.searchform input{
+    width: 220px;
+    
+  
+}
+.searchform img{
+    vertical-align: middle;
+      
+}
+
+.ordercomplete{
+    background-color: aliceblue;
+    display:flexbox;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+    border:2px groove;
+    flex-wrap:wrap;
+    
+}
+.ordercomplete i{
+    font-size: 50px;
+}
+
+
+.ordercomplete .bn1{
+    background-color:rgb(29, 219, 26);
+    border:1px solid;
+}
+.ordercomplete .bn1:hover{
+    cursor:pointer;
+    box-shadow:2px 2px 5px;
+
+}
+.ordercomplete .bn{
+    background-color: lightgray;
+    border: 1px solid;
+}
+.ordercomplete .bn:hover{
+    cursor:pointer;
+    box-shadow:2px 2px 5px;
+
+}
+.textfield h3{
+    font-family:Arial;
+}
+.textfield p{
+    font-size: 14px;
+    font-family:sans-serif;
+}
